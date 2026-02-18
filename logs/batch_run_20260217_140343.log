@@ -1,0 +1,45 @@
+2026-02-17 14:03:43,148 [INFO] Found 1 PDF(s) to process in 'C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs':
+2026-02-17 14:03:43,149 [INFO] - 46 W Washington Ln.pdf
+2026-02-17 14:03:43,149 [INFO] Starting parallel processing with 4 workers...
+2026-02-17 14:05:01,292 [INFO] [46 W Washington Ln.pdf] Subject: ✅ All required fields are present.
+2026-02-17 14:05:01,303 [INFO] [46 W Washington Ln.pdf] Subject: ✅ Zip Code (19144) is valid.
+2026-02-17 14:05:01,313 [INFO] [46 W Washington Ln.pdf] Subject: ⚠️ Assignment Type is Purchase Transaction. Please ensure the 'Contract' section is filled.
+2026-02-17 14:05:01,325 [INFO] [46 W Washington Ln.pdf] Subject: ℹ️ Address Consistency: Verify that "46 W Washington Ln, Philadelphia, PA, 19144" matches the Sales Grid, Location Map, Aerial Map, and Subject Photos.
+2026-02-17 14:05:01,339 [INFO] [46 W Washington Ln.pdf] Subject: ⚠️ PUD is 'Yes': Verify that 'HOA $' is a number > 0 and 'HOA(per year/per month)' is filled.
+2026-02-17 14:05:01,354 [INFO] [46 W Washington Ln.pdf] Subject: ℹ️ PUD is 'Yes'. Ensure 'PUD Info' section is filled.
+2026-02-17 14:05:01,369 [INFO] [46 W Washington Ln.pdf] Subject: ⚠️ 'Offered for Sale' is 'Yes' but missing details: MLS.
+2026-02-17 14:05:01,387 [INFO] [46 W Washington Ln.pdf] Subject: ✅ Subject property state detected: PA
+2026-02-17 14:05:17,747 [INFO] [46 W Washington Ln.pdf] Custom Analysis: ✅ GLA Consistency Check Passed.
+2026-02-17 14:05:34,146 [INFO] [46 W Washington Ln.pdf] Custom Analysis: ⚠️ Subject Address/Photo Check Failed: Issues found.
+2026-02-17 14:05:45,976 [INFO] [46 W Washington Ln.pdf] Custom Analysis: ✅ Room Count Check Passed.
+2026-02-17 14:06:00,058 [ERROR]   [ERROR] An error occurred during Custom Analysis: Message: 
+
+2026-02-17 14:06:10,337 [ERROR] An error occurred: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x8d5093
+	0x8d50d4
+	0x6cb490
+	0x7158da
+	0x715b7b
+	0x757b42
+	0x738204
+	0x755341
+	0x737f56
+	0x7096c9
+	0x70a484
+	0xb27e34
+	0xb230c9
+	0xb40add
+	0x8edb38
+	0x8f58ad
+	0x8dd848
+	0x8dda12
+	0x8c75fa
+	0x7576fcc9
+	0x773f839e
+	0x773f836e
+
+2026-02-17 14:06:12,646 [INFO] Moved 46 W Washington Ln.pdf to C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs\failed
+2026-02-17 14:06:17,559 [INFO] Email notification sent: Batch Processing Complete - 0/1 Success
+2026-02-17 14:06:17,560 [INFO] All reviews complete.

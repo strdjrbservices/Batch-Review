@@ -1,0 +1,33 @@
+2026-02-17 13:35:07,447 [INFO] Found 2 PDF(s) to process in 'C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs':
+2026-02-17 13:35:07,448 [INFO] - 1215 McGinnis Pt.pdf
+2026-02-17 13:35:07,448 [INFO] - 954 Carpino Ave.pdf
+2026-02-17 13:35:07,449 [INFO] Starting parallel processing with 4 workers...
+2026-02-17 13:36:42,941 [INFO] [1215 McGinnis Pt.pdf] Subject: ✅ All required fields are present.
+2026-02-17 13:36:42,960 [INFO] [1215 McGinnis Pt.pdf] Subject: ✅ Zip Code (76449) is valid.
+2026-02-17 13:36:42,969 [INFO] [1215 McGinnis Pt.pdf] Subject: ⚠️ Assignment Type is Purchase Transaction. Please ensure the 'Contract' section is filled.
+2026-02-17 13:36:42,985 [INFO] [1215 McGinnis Pt.pdf] Subject: ℹ️ Address Consistency: Verify that "1215 McGinnis Pt, Graford, TX, 76449" matches the Sales Grid, Location Map, Aerial Map, and Subject Photos.
+2026-02-17 13:36:42,997 [INFO] [1215 McGinnis Pt.pdf] Subject: ⚠️ PUD is 'Yes': Verify that 'HOA $' is a number > 0 and 'HOA(per year/per month)' is filled.
+2026-02-17 13:36:43,006 [INFO] [1215 McGinnis Pt.pdf] Subject: ℹ️ PUD is 'Yes'. Ensure 'PUD Info' section is filled.
+2026-02-17 13:36:43,018 [INFO] [1215 McGinnis Pt.pdf] Subject: ⚠️ 'Offered for Sale' is 'Yes' but missing details: MLS.
+2026-02-17 13:36:43,029 [INFO] [1215 McGinnis Pt.pdf] Subject: ✅ Subject property state detected: TX
+2026-02-17 13:36:53,377 [INFO] [954 Carpino Ave.pdf] Subject: ✅ All required fields are present.
+2026-02-17 13:36:53,386 [INFO] [954 Carpino Ave.pdf] Subject: ✅ Zip Code (94565) is valid.
+2026-02-17 13:36:53,397 [INFO] [954 Carpino Ave.pdf] Subject: ⚠️ Assignment Type is Purchase Transaction. Please ensure the 'Contract' section is filled.
+2026-02-17 13:36:53,406 [INFO] [954 Carpino Ave.pdf] Subject: ℹ️ Address Consistency: Verify that "954 Carpino Ave, Pittsburg, CA, 94565" matches the Sales Grid, Location Map, Aerial Map, and Subject Photos.
+2026-02-17 13:36:53,419 [INFO] [954 Carpino Ave.pdf] Subject: ⚠️ 'Offered for Sale' is 'Yes' but missing details: Listing Date.
+2026-02-17 13:36:53,429 [INFO] [954 Carpino Ave.pdf] Subject: ✅ Subject property state detected: CA
+2026-02-17 13:36:59,635 [INFO] [1215 McGinnis Pt.pdf] Custom Analysis: ✅ GLA Consistency Check Passed.
+2026-02-17 13:37:08,592 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ✅ GLA Consistency Check Passed.
+2026-02-17 13:37:12,213 [INFO] [1215 McGinnis Pt.pdf] Custom Analysis: ⚠️ Subject Address/Photo Check Failed: Issues found.
+2026-02-17 13:37:29,538 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ⚠️ Subject Address/Photo Check Failed: Issues found.
+2026-02-17 13:37:32,250 [INFO] [1215 McGinnis Pt.pdf] Custom Analysis: ✅ Room Count Check Passed.
+2026-02-17 13:37:51,322 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ✅ Room Count Check Passed.
+2026-02-17 13:37:54,487 [INFO] [1215 McGinnis Pt.pdf] Custom Analysis: ⚠️ Comparable Address/Photo Check Failed: Duplicates or mismatches found.
+2026-02-17 13:38:16,873 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ⚠️ Comparable Address/Photo Check Failed: Duplicates or mismatches found.
+2026-02-17 13:38:21,154 [INFO] [1215 McGinnis Pt.pdf] Custom Analysis: ⚠️ Photo Label Check Failed.
+2026-02-17 13:38:36,154 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ⚠️ Photo Label Check Failed.
+2026-02-17 13:38:36,814 [INFO] Moved 1215 McGinnis Pt.pdf to C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs\processed
+2026-02-17 13:38:51,480 [INFO] [954 Carpino Ave.pdf] Custom Analysis: ✅ Room Count Check Passed.
+2026-02-17 13:38:51,571 [INFO] Moved 954 Carpino Ave.pdf to C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs\processed
+2026-02-17 13:38:58,669 [INFO] Email notification sent: Batch Processing Complete - 2/2 Success
+2026-02-17 13:38:58,670 [INFO] All reviews complete.

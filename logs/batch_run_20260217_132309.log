@@ -1,0 +1,6 @@
+2026-02-17 13:23:09,811 [INFO] Found 1 PDF(s) to process in 'C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs':
+2026-02-17 13:23:09,813 [INFO] - 954 Carpino Ave.pdf
+2026-02-17 13:23:09,813 [INFO] Starting parallel processing with 4 workers...
+2026-02-17 13:25:42,465 [INFO] Moved 954 Carpino Ave.pdf to C:\Users\Admin\Desktop\1004\recentproject\Batch Review\pdfs\processed
+2026-02-17 13:25:49,408 [INFO] Email notification sent: Batch Processing Complete - 1/1 Success
+2026-02-17 13:25:49,409 [INFO] All reviews complete.
